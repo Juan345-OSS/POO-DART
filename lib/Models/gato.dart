@@ -5,7 +5,7 @@ class Gato extends Animal {
 
   @override
   void hacerSonido() {
-    print('$nombre (gato) dice: ¡Miau!');
+    print('$nombre (gato) dice: ¡Miau, dame comida!');
   }
 
   void ronronear() {

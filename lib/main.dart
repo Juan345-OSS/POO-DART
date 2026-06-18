@@ -16,6 +16,7 @@ void main() {
     // CASTING con is / as
     if (animal is Perro) {
       (animal as Perro).buscarPelota();
+      // (animal as Perro).ladrarFuerte(); un nuevo metodo para combrobar el comportamiento
     } else if (animal is Gato) {
       (animal as Gato).ronronear();
     }
