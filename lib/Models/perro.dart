@@ -11,4 +11,8 @@ class Perro extends Animal {
   void buscarPelota() {
     print('$nombre está buscando la pelota');
   }
+
+  void ladrarFuerte() {
+    print('$nombre está ladrando fuertísimo: ¡GUAU GUAU GUAU!');
+  }
 }
